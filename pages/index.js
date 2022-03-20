@@ -82,7 +82,7 @@ export default function Home({exploreData, cardsData}) {
     </div>
   );
 }
-export async function getStaticProps(){
+export async function getServerSideProps(){   //before:getStaticProps
    const exploreData = await fetch ("http://localhost:3000/explore.json").
      then (
      (res) => res.json()
