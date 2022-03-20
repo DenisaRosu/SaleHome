@@ -1,0 +1,22 @@
+[
+    {
+        "img": "/im1.png",
+        "city": "Quebec City",
+        "country": "Iceland"
+    },
+    {
+        "img": "/im2.png",
+        "city": "Manama",
+        "country": "Barbados"
+    },
+    {
+        "img": "/im3.png",
+        "city": "Saint Petersburg",
+        "country": "Seychelles"
+    },
+    {
+        "img": "/im2.png",
+        "city": "Timisoara",
+        "country": "Romania"
+    }
+  ]

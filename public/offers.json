@@ -1,0 +1,28 @@
+[
+    {  
+        "img": "/im1.png",
+        "mp": "59",
+        "zona": "Dili",
+        "pret": "62527 €Euro"
+    },
+    {  
+        "img": "/im2.png",
+        "mp": "38",
+        "zona": "Quezon City",
+        "pret": "74730 €Euro"
+    },
+    {
+        "img": "/im3.png",
+        "mp": "96",
+        "zona": "Ulan Bator",
+        "pret": "26949 €Euro"
+    },
+    { 
+        "img": "/im2.png",
+        "mp": "58",
+        "zona": "Moroni",
+        "pret": "92170 €Euro "
+    }
+
+
+]
