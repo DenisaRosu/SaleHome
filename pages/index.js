@@ -83,13 +83,13 @@ export default function Home({exploreData, cardsData}) {
   );
 }
 export async function getServerSideProps(){   //before:getStaticProps
-   const exploreData = await fetch ("http://localhost:3000/explore.json").
+   const exploreData = await fetch ("http://127.0.0.1/explore.json").
      then (
      (res) => res.json()
    );
   
 
-  const cardsData= await fetch ("http://localhost:3000/offers.json").
+  const cardsData= await fetch ("http://127.0.0.1/offers.json").
      then((res)=>
      res.json()
      );
