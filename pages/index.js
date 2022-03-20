@@ -7,8 +7,8 @@ import LargeCard from "../components/LargeCard"
 import Footer from "../components/Footer"
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import data from "../public/explore.json"
-import data2 from "../public/offers.json"
+import exploreData from "../public/explore.json"
+import cardsData from "../public/offers.json"
 import image1 from '../public/imageSnow.jpeg'
 
 export default function Home({exploreData, cardsData}) {
