@@ -19,7 +19,7 @@ function Header(){
         cursor-pointer my-auto ' >
           <Image
           src = {image1}
-          width={80} height={110}
+          width={150} height={140}
           layout="fixed"
           objectFit="contain"
           objectPosition ="left"
@@ -27,12 +27,12 @@ function Header(){
         </div>    
 
        {/*middle */}
-        <div className="flex items-center 
+        <div className=" flex items-center 
         md:border-4
         border border-blue-300
-        h-5 py-4
-        px-4
-        pz-3
+        h-5 py-5
+        px-5
+        pz-2
         md:shadow-sm
         "><SearchIcon className="h-9
            hidden
@@ -47,10 +47,13 @@ function Header(){
           className="relative flew-grow bg-transparent outline-none
              text-sm
              text-blue-800
+            font-bold
              placeholder-blue-800
-             pl-2
+             px-2
+            
+           
           "
-        placeholder ="Search for your Rares"/>
+        placeholder ="Plan a meeting with us"/>
             
             
         </div>  
@@ -60,10 +63,10 @@ function Header(){
         className="flex items-center
         space-x-4
         justify-end
-        text-blue-400
+        text-blue-800
         ">
 
-         <p className="hidden md:inline font-bold "> Become a Rares </p>
+         <p className="hidden md:inline font-bold "> Log In </p>
        <GlobeAltIcon
        className="h-6
       cursor-pointer "  />

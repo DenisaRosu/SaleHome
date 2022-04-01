@@ -1,27 +1,27 @@
 [
     {  
         "img": "/im1.png",
-        "mp": "59",
-        "zona": "Dili",
-        "pret": "62527 €Euro"
+        "mp": "70 mp",
+        "zona": "Timisoara",
+        "pret": "90980 €Euro"
     },
     {  
         "img": "/im2.png",
-        "mp": "38",
-        "zona": "Quezon City",
-        "pret": "74730 €Euro"
+        "mp": "50 mp",
+        "zona": "Dumbravita",
+        "pret": "73800 €Euro"
     },
     {
         "img": "/im3.png",
-        "mp": "96",
-        "zona": "Ulan Bator",
-        "pret": "26949 €Euro"
+        "mp": "40 mp ",
+        "zona": "Giroc",
+        "pret":"45009 €Euro"
     },
     { 
         "img": "/im2.png",
-        "mp": "58",
-        "zona": "Moroni",
-        "pret": "92170 €Euro "
+        "mp": "98 mp",
+        "zona": "Timisoara",
+        "pret": "144000 €Euro "
     }
 
 

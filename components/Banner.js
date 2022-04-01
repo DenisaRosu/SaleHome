@@ -21,7 +21,7 @@ function Banner() {
            hover:shadow-xl
            active:scale-90 duration-75
            
-             ">Show me something nice!</button>
+             ">Let's build a home, not just a house!</button>
           </div>
         </div>    
       
