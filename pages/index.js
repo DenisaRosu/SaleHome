@@ -35,9 +35,8 @@ export default function Home({exploreData, cardsData}) {
       <section className="pt-5">
           <h2 className=" text-4xl font-semibold py-8 text-blue-800">Best places to live!</h2>
            
-
+ 
        {/* Put data from server - API endpoint*/}
-         
          
          <div className="grid grid-cols-1 sm:grid-cols-2
          lg:grid-cols-3
