@@ -29,4 +29,16 @@ a {
     transition transform duration-100
     bg-blue-100 border md:border-4 border-blue-300;
   }
+  .input{
+    @apply cursor-pointer
+    py-3
+    ease-out
+    font-bold
+    text-center
+    text-2xl
+    hover:shadow-md
+    active:scale-95
+    transition transform duration-200
+    bg-blue-100 border md:border-4 border-blue-300;
+  }
 }

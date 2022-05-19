@@ -1,7 +1,7 @@
 [
     {  
         "img": "/ap1.jpg",
-        "mp": "70 mp",
+        "mp": "70",
         "zona": "Timisoara",
         "pret": "90980 €Euro",
         "noRooms":"4",
@@ -9,7 +9,7 @@
     },
     {  
         "img": "/ap2.jpg",
-        "mp": "50 mp",
+        "mp": "50",
         "zona": "Dumbravita",
         "pret": "73800 €Euro",
         "noRooms":"3",
@@ -17,7 +17,7 @@
     },
     {
         "img": "/ap3.jpg",
-        "mp": "40 mp ",
+        "mp": "40",
         "zona": "Giroc",
         "pret":"45009 €Euro",
         "noRooms":"2",
@@ -25,7 +25,7 @@
     },
     { 
         "img": "/ap4.jpg",
-        "mp": "98 mp",
+        "mp": "98",
         "zona": "Timisoara",
         "pret": "144000 €Euro ",
         "noRooms":"4",
@@ -33,7 +33,7 @@
     },
     { 
         "img": "/ap5.jpg",
-        "mp": "98 mp",
+        "mp": "98",
         "zona": "Timisoara",
         "pret": "88000 €Euro ",
         "noRooms":"4",
