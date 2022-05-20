@@ -57,10 +57,26 @@ const save = ()=>{
            
            <main className=' text-blue-800'>
               <section >
-              <p className="text-xm py-3">Meet with us on {formattedStartDate}</p>
-              <p className="text-xm py-3">Number of possible houses to be done on {formattedStartDate}</p>
+              <p className="text-xm py-3">House to be done until {formattedStartDate}</p>
              <h1 className="text-3xl py-3 font-semibold">Houses in {location} with {noOfRooms} rooms</h1>
-             
+            
+             {searchResults.filter(searchResult => searchResult.noRooms === noOfRooms && searchResult.zona === location ).map(({img, mp, zona, pret, noRooms, noBath}) => (   
+           
+                      <InfoCard
+                
+                         key={img}
+                         img ={img }
+                         mp={mp}
+                         zona={zona}
+                         pret ={pret}
+                         noRooms={noRooms}
+                         noBath={noBath}
+                      />
+
+                  ))}
+
+            <h1 className="text-3xl py-3 font-semibold">Now let's customize your future home </h1>
+            
                 <div className="px-4 py-2 space-y-3 flex-grow " >
                 <h2 className="flex-grow text-2xl py-3 flex items-center ">Number of bedrooms
                 <ViewGridIcon  className="h-5 px-3"/>
@@ -94,24 +110,11 @@ const save = ()=>{
                 </p>
             
 
-                 <button onClick={save} className="">SEARCH!</button>
+                 <button onClick={save} className="ml-6 px-20 button">SEARCH!</button>
                 
                 </div>
                
-                  {searchResults.filter(searchResult => searchResult.noRooms === noOfRooms && searchResult.zona === location ).map(({img, mp, zona, pret, noRooms, noBath}) => (   
-           
-                      <InfoCard
-                
-                         key={img}
-                         img ={img }
-                         mp={mp}
-                         zona={zona}
-                         pret ={pret}
-                         noRooms={noRooms}
-                         noBath={noBath}
-                      />
-
-                  ))}
+                  
 
 
               </section>

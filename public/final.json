@@ -1,0 +1,31 @@
+[
+    {  
+        "imgGresie": "/gres1.jpg",
+        "imgFaianta": "/faianta1.jpg",
+        "imgParchet": "/parchet2.jpg",
+        "img": "/ap4.jpg",
+        "mp": "98",
+        "zona": "Timisoara",
+        "pret": "144000 €Euro ",
+        "noRooms":"4",
+        "noBath":"2",
+        "imgFinal":"/apartament1.jpg"
+        
+    },
+    {  
+        "imgGresie": "/gres1.jpg",
+        "imgFaianta": "/faianta1.jpg",
+        "imgParchet": "/parchet2.jpg",
+        "img": "/ap4.jpg",
+        "mp": "98",
+        "zona": "Timisoara",
+        "pret": "88000 €Euro ",
+        "noRooms":"4",
+        "noBath":"2",
+        "imgFinal":"/apartament2.jpg"
+        
+    }
+    
+
+
+]
