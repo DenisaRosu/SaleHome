@@ -1,6 +1,7 @@
 [
     {  
         "imgGresie": "/gres1.jpg",
+        "modelulFaianta":"Model faianta 1",
         "imgFaianta": "/faianta1.jpg",
         "imgParchet": "/parchet2.jpg",
         "img": "/ap4.jpg",
@@ -14,6 +15,7 @@
     },
     {  
         "imgGresie": "/gres1.jpg",
+        "modelulFaianta":"Model faianta 2",
         "imgFaianta": "/faianta1.jpg",
         "imgParchet": "/parchet2.jpg",
         "img": "/ap4.jpg",

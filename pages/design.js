@@ -19,7 +19,6 @@ import {SearchIcon,
 function Design({designResults}) {
    
 
-
 const router = useRouter();
 
    //ES6 destructuring 

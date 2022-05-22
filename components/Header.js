@@ -116,7 +116,7 @@ function Header({placeholder}){
             
            sm:inline-flex
           "
-        placeholder ={placeholder || "Let's meet in.."}/>
+        placeholder ={placeholder || "I want to live in.."}/>
     
    
             
@@ -159,7 +159,7 @@ function Header({placeholder}){
   
    {searchInput && (
     <div className="flex flex-col col-span-3 mx-auto font-bold  text-blue-800">
-     <h1 className="px-3 py-2">When do you want to meet with us?</h1> 
+     <h1 className="px-3 py-2">When would you like to have your apartamnet done?</h1> 
    <DateRangePicker class="relatives "
    
      ranges={[selectionRange]}
