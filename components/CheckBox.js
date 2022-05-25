@@ -11,7 +11,7 @@ function CheckBox({}) {
   router.push({
     pathname:'/final',
     query: {
-       check1F,check2, img, mp, zona, pret, noRooms, noBath
+       checked, checkedItems, check1F,check2F,check1G,check2G,check1P,check2P,img, mp, zona, pret, noRooms, noBath
       
     }
   })
@@ -26,7 +26,7 @@ function CheckBox({}) {
 
    const{ img, mp, zona, pret, noRooms, noBath}  = router.query;
 
-     console.log(zona)
+  
 
 
 
@@ -43,7 +43,7 @@ function CheckBox({}) {
   };
 
    const [checked, setChecked] = useState([]);
-const checkList = ["Model faianta 1", "Model faianta 2","Model gresie 1 ","Model gresie 2", "Model parchet 1", "Model parchet 2"];
+const checkList = ["Model faianta 1", "Model faianta 2","Model gresie 1","Model gresie 2", "Model parchet 1", "Model parchet 2"];
 
 const checkedItems = checked.length
     ? checked.reduce((total, item) => {
@@ -68,13 +68,13 @@ const check2P = checked[5];
 
          <div className="px-10 py-3 ">
   
-    <div className="form-check gap-3 ">
+    <div className="form-check gap-5  ">
       
        <div className="checkList">
     <div className="title">Models:</div>
-    <div className="list-container">
+    <div className="list-container mb-20">
       {checkList.map((item, index) => (
-          <div key={index}>
+          <div className="mb-10" key={index}>
               <input value={item} type="checkbox" onChange={handleCheck} />
               <span className={isChecked(item)}>{item}</span>
             </div>
@@ -89,7 +89,7 @@ const check2P = checked[5];
       
     </div>
 
-    <button onClick={save} className="  flex-grow bg-blue-200 md:border-4  border border-blue-300" >Save</button>
+    <button onClick={save} className=" ml-10 mt-9 py-4 button px-10  md:border-4  border border-blue-300" >Save</button>
       
     
   </div>

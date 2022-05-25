@@ -2,10 +2,12 @@
     {  
         "imgGresie": "/gres1.jpg",
         "modelulFaianta":"Model faianta 1",
+        "modelulGresie":"Model gresie 2",
+        "modelulParchet":"Model parchet 1",
         "imgFaianta": "/faianta1.jpg",
         "imgParchet": "/parchet2.jpg",
         "img": "/ap4.jpg",
-        "mp": "98",
+        "mp": "83.90",
         "zona": "Timisoara",
         "pret": "144000 €Euro ",
         "noRooms":"4",
@@ -15,15 +17,33 @@
     },
     {  
         "imgGresie": "/gres1.jpg",
-        "modelulFaianta":"Model faianta 2",
+        "modelulFaianta":"Model faianta 1",
+        "modelulGresie":"Model gresie 2",
         "imgFaianta": "/faianta1.jpg",
+        "modelulParchet":"Model parchet 1",
         "imgParchet": "/parchet2.jpg",
-        "img": "/ap4.jpg",
-        "mp": "98",
+        "img": "/ap1.jpg",
+        "mp": "139.10",
         "zona": "Timisoara",
-        "pret": "88000 €Euro ",
+        "pret": "90980 €Euro",
         "noRooms":"4",
         "noBath":"2",
+        "imgFinal":"/apartament2.jpg"
+        
+    },
+    {  
+        "imgGresie": "/gres1.jpg",
+        "modelulFaianta":"Model faianta 2",
+        "modelulGresie":"Model gresie 2",
+        "imgFaianta": "/faianta1.jpg",
+        "modelulParchet":"Model parchet 2",
+        "imgParchet": "/parchet2.jpg",
+        "img": "/ap1.jpg",
+        "mp": "42.70",
+        "zona": "Timisoara",
+        "pret": "58000 €Euro",
+        "noRooms":"1",
+        "noBath":"1",
         "imgFinal":"/apartament2.jpg"
         
     }

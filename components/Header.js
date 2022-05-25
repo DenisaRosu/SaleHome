@@ -68,13 +68,12 @@ function Header({placeholder}){
 
         {/*left  */    /* on click on the image-> back to the home screen */}
 
-        <div onClick={ () => router.push("/")
-        }
-        className='realtive flex items-center h-25
+        <div onClick={ () => router.push("/")}
+        className='realtive flex items-center h-20
         cursor-pointer my-auto ' >
           <Image
           src = {image1}
-          width={150} height={140}
+          width={180} height={160}
           layout="fixed"
           objectFit="contain"
           objectPosition ="left"
@@ -86,14 +85,14 @@ function Header({placeholder}){
         <div className=" flex items-center  
         sm:border-4
         border border-blue-300
-        h-10 py-4
+        h-10 
         px-4
         pz-1
         md:shadow-sm
         ">
      <SearchIcon objectposition ="left" className="h-9
-           hidden
-           md:inline-flex
+       
+           inline-flex
             bg-blue-300 
             text-white
             p-2
@@ -109,9 +108,9 @@ function Header({placeholder}){
              text-sm
              text-blue-800
             font-bold
-         
+             py-10
              placeholder-blue-800
-             px-2
+             px-1
              
             
            sm:inline-flex
@@ -131,17 +130,15 @@ function Header({placeholder}){
         text-blue-800
         ">
 
-         <p className="hidden md:inline font-bold "> Log In </p>
+        
+         
+      <div onClick={ () => router.push("/")}
+      className="flex items-center
+      space-x-2 border-2 p-10
+      "> <p className="hidden md:inline font-bold ">  </p>
        <GlobeAltIcon
        className="h-6
       cursor-pointer "  />
-         
-      <div
-      className="flex items-center
-      space-x-2 border-2 p-2 
-      ">
-      <MenuIcon className="h-6"/>
-      <UserCircleIcon className="h-6"/>
       </div>  
       
     </div>

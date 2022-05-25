@@ -23,18 +23,7 @@ import {SearchIcon,
 function Interior({interiorResults, chooseResultsFaianta, chooseResultsGresie,chooseResultsParchet}) {
    
    
-   const save = ()=>{
-  // router.push('/search')
-  router.push({
-    pathname:'/final',
-    query: {
-    
-       img, mp, zona, pret, noRooms, noBath
-      
-    }
-  })
-  }
-
+ 
 
 
 const router = useRouter();
@@ -49,6 +38,7 @@ const router = useRouter();
    return  (
 
        <div>
+        <title>MyHOME</title>
            <Header placeholder={`${zona}| ${noRooms} rooms`}/>
 
            
@@ -73,13 +63,16 @@ const router = useRouter();
                       />
 
                   ))}
-
-         <div className="grid grid-cols-3 text-blue-800">     
-         <h1 className="text-2xl flex-center py-3 font-semibold">Choose between these for your faience 
-          <CheckBox/>
+     
+                
+         <div className="grid grid-cols-4 shadow-2xl bg-blend-darken text-blue-800 border-9 border-blue-800">       
+       
+         <h1 className="text-2xl flex-center py-3 font-semibold">
+         <CheckBox/>   
          </h1>
-         
-                 {chooseResultsGresie.map(({imgG})=>(
+
+         <h1 className="text-2xl flex-center py-3 font-semibold">Your faience 
+        {chooseResultsGresie.map(({imgG})=>(
                     <Gresie
                         key={imgG}
                         imgG={imgG}
@@ -87,12 +80,11 @@ const router = useRouter();
                     />
    
                   ))} 
-       <h1 className="text-2xl flex-center py-3 font-semibold">Choose between these for your bathroom floor tiles
-            <CheckBox/>
-       </h1>
-
-            
+         </h1>
          
+                 
+       <h1 className="text-2xl flex-center py-3  font-semibold">Your bathroom floor tiles
+          
                   {chooseResultsFaianta.map(({imgF})=>(
                     <Faianta 
                         key={imgF}
@@ -101,9 +93,10 @@ const router = useRouter();
                     />
 
                   ))} 
-         <h1 className="text-2xl flex-center py-3 font-semibold">Choose between these for your rooms tiles 
-          <CheckBox/>
-         </h1>
+       </h1>
+
+            
+         <h1 className="text-2xl px-4 flex-center py-3 font-semibold">Your rooms tiles 
          
                   {chooseResultsParchet.map(({imgP})=>(
                     <Parchet
@@ -113,7 +106,9 @@ const router = useRouter();
                     />
 
                   ))} 
-                   
+         </h1>
+         
+        
        </div>
         
 
@@ -121,7 +116,7 @@ const router = useRouter();
 
 
 
-      <button onClick={save} className="ml-10 mt-9 py-4 button">Now the final apartment!</button>
+      
               </section>
            </main>
 

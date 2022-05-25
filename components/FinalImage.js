@@ -8,7 +8,7 @@ function FinalImage({imgFinal}) {
   
      
          <div className="flex relative h-80
-           min-w-[530px] border-x-1
+           min-w-[540px] border-x-1
           flex-shrink-0">
          <Image  src={imgFinal} 
          layout="fill"

@@ -1,22 +1,22 @@
 [
     {
         "img": "/im1.png",
-        "city": "Quebec City",
-        "country": "Iceland"
+        "city": "Complex Luna",
+        "country": "Dumbravita"
     },
     {
         "img": "/im2.png",
-        "city": "Manama",
-        "country": "Barbados"
+        "city": "Complex Pluto",
+        "country": "Giroc"
     },
     {
         "img": "/im3.png",
-        "city": "Saint Petersburg",
-        "country": "Seychelles"
+        "city": "Complex Shine",
+        "country": "Timisoara"
     },
     {
         "img": "/im4.png",
-        "city": "Timisoara",
-        "country": "Romania"
+        "city": "Complex Star",
+        "country": "Timisoara"
     }
   ]

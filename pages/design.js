@@ -31,11 +31,12 @@ const router = useRouter();
 
  
 
- 
+ console.log ( noOfMP)
    //const formattedStartDate = format(new Date(startDate),"dd MMMM yy");  //install npm install --save react date-fns ( may crash again ?! ) 
    return  (
 
        <div>
+         <title>MyHOME</title>
            <Header placeholder={`${location}| ${noOfRooms} rooms`}/>
 
            
@@ -46,12 +47,14 @@ const router = useRouter();
              
                 <div className="px-4 py-2 space-y-3 flex-grow " >
                 
-
+  
                 
                 </div>
                
                   {designResults
-                  .filter(designResult => designResult.mp === noOfMP &&designResult.noRooms  === noOfRooms &&designResult.zona === location )
+                  .filter(designResult =>designResult.noRooms  === noOfBedRooms 
+                  && (noOfMP -10  <= designResult.mp  && designResult.mp <= noOfMP +10 )
+                  &&designResult.zona === location )
                   .map(({img, mp, zona, pret, noRooms, noBath}) => (   
                  <InfoCardDesign
                    

@@ -52,8 +52,9 @@ const save = ()=>{
    return  (
 
        <div>
+        <title>MyHOME</title>
            <Header placeholder={`${location} | ${formattedStartDate}| ${noOfRooms} rooms`}/>
-
+ 
            
            <main className=' text-blue-800'>
               <section >
@@ -66,7 +67,7 @@ const save = ()=>{
                 
                          key={img}
                          img ={img }
-                         mp={mp}
+                         
                          zona={zona}
                          pret ={pret}
                          noRooms={noRooms}

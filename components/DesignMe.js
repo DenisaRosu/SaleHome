@@ -9,7 +9,7 @@ function DesignMe({img, mp, zona, pret, noRooms, noBath}) {
        
           
           <div className="flex relative h-80
-           min-w-[420px] border-x-1
+           min-w-[430px] border-x-1
           flex-shrink-0
            ">
           <Image  

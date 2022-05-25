@@ -27,15 +27,15 @@ const save = ()=>{
         hover:shadow-lg"> 
        
           
-          <div className="flex-grow relative h-80
-           min-w-[420px] border-x-1
+          <div className="flex relative h-80 
+           min-w-[430px] border-x-1
           flex-shrink-0
            ">
           <Image  
           src={img}  layout="fill"
               objectFit="cover" />
           </div>
-        <button onClick={save} className="px-3 button">Customize this one!</button>
+        
 
           <div className="flex flex-col pl-5 py-2">
              <div className=" flex justify-between">
@@ -46,7 +46,8 @@ const save = ()=>{
               <h4 className="text-m">{mp} MP</h4>
                <h4 className="text-m">{noRooms} Rooms</h4>
                 <h4 className="text-m">{noBath} Bathrooms</h4>
-          </div>
+        <button onClick={save} className="px-3 button">Customize this one!</button>  
+        </div>
 
           
         </div>

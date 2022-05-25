@@ -24,11 +24,11 @@ const router = useRouter();
 
    //ES6 destructuring 
   
-   const{ img, mp, zona, pret, noRooms, noBath, check1, check2}  = router.query;
-console.log(check2)
-console.log(check1)
-console.log(noRooms)
+   const{checked, checkedItems, img, mp, zona, pret, noRooms, noBath, check1F, check2F,  check1P, check2P, check1G, check2G }  = router.query;
 
+checked.sort();
+
+console.log(checked)
 
     return  (
 
@@ -46,7 +46,9 @@ console.log(noRooms)
                   {finalResults.filter(finalResult => finalResult.mp === mp 
                   &&finalResult.zona === zona
                   &&finalResult.pret===pret
-                  &&finalResult.modelulFaianta === check1
+                  &&finalResult.modelulFaianta === checked[0]
+                  &&finalResult.modelulGresie === checked[1]
+                   &&finalResult.modelulParchet=== checked[2]
                   )
                   .map(({img, mp, zona, pret, noRooms, noBath, imgFinal}) => (   
                  <FinalImage
