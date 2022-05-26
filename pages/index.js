@@ -66,7 +66,7 @@ export default function Home({exploreData, cardsData,dataPlaces}) {
 
 
        <section>
-         <h2 className="text-4xl font-semibold py-8 text-blue-800">Latest offers
+         <h2 className="text-4xl font-semibold py-5 text-blue-800">Latest offers
          </h2>
 
           <div className="flex space-x-3

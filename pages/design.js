@@ -30,8 +30,8 @@ const router = useRouter();
          noOfRooms}  = router.query;
 
  
-
- console.log ( noOfMP)
+console.log(designResults.map(designResult => parseInt(designResult.mp)))
+ //console.log (parseInt(noOfMP)-10)
    //const formattedStartDate = format(new Date(startDate),"dd MMMM yy");  //install npm install --save react date-fns ( may crash again ?! ) 
    return  (
 
@@ -43,7 +43,7 @@ const router = useRouter();
            <main className=' text-blue-800'>
               <section >
                 <h1 className="text-3xl py-3 font-semibold">
-                Houses in {location} with {noOfBedRooms} bedrooms, {noOfBathRooms} bathrooms and {noOfMP} mp</h1>
+                Apartments in {location} with {noOfBedRooms} bedrooms, {noOfBathRooms} bathrooms and {noOfMP} mp</h1>
              
                 <div className="px-4 py-2 space-y-3 flex-grow " >
                 
@@ -53,7 +53,8 @@ const router = useRouter();
                
                   {designResults
                   .filter(designResult =>designResult.noRooms  === noOfBedRooms 
-                  && (noOfMP -10  <= designResult.mp  && designResult.mp <= noOfMP +10 )
+                  && (parseInt(noOfMP)-10  <= parseInt(designResult.mp))
+                  && (parseInt(designResult.mp) <= parseInt(noOfMP)+10)
                   &&designResult.zona === location )
                   .map(({img, mp, zona, pret, noRooms, noBath}) => (   
                  <InfoCardDesign
@@ -76,8 +77,12 @@ const router = useRouter();
 
            <Footer/>
        </div>
+       
    )
+   
+
 }
+
 
 export default Design
 

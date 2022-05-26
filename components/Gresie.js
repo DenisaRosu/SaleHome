@@ -23,4 +23,4 @@ function Gresie({imgG}) {
        
     
 }
-export default Gresie;
+export default Gresie

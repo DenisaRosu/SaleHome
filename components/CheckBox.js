@@ -71,7 +71,7 @@ const check2P = checked[5];
     <div className="form-check gap-5  ">
       
        <div className="checkList">
-    <div className="title">Models:</div>
+    <div className="title py-4">Models:</div>
     <div className="list-container mb-20">
       {checkList.map((item, index) => (
           <div className="mb-10" key={index}>

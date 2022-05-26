@@ -7,7 +7,7 @@ function MediumCard({img, mp, zona, pret}) {
         transform transition duration-300 ease-out hover:bg-blue-200
   ">
      
-         <div className="ml-5 relative h-40 w-60">
+         <div className="ml-2 relative h-80 w-80">
          <Image  src={img} layout="fill"/>
          </div>
           
@@ -15,7 +15,7 @@ function MediumCard({img, mp, zona, pret}) {
              {pret} 
 
           </h3>
-            <h2>{mp}</h2>
+            <h2>{mp} MP</h2>
              <h3>{zona}</h3>
         </div>    
       

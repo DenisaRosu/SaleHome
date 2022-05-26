@@ -90,7 +90,7 @@ function Header({placeholder}){
         pz-1
         md:shadow-sm
         ">
-     <SearchIcon objectposition ="left" className="h-9
+     <SearchIcon objectposition ="left" className="h-10
        
            inline-flex
             bg-blue-300 
@@ -105,7 +105,7 @@ function Header({placeholder}){
         onChange={(e)=>setSearchInput(e.target.value)}
         type="text" 
           className="relative flew-grow bg-transparent outline-none
-             text-sm
+             text-xl
              text-blue-800
             font-bold
              py-10

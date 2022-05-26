@@ -1,6 +1,6 @@
 import Image from 'next/image' 
 
-function FinalImage({imgFinal}) {
+function FinalBaie({baie}) {
     return(
 
         <div className="flex py-9 px-3 
@@ -11,7 +11,7 @@ function FinalImage({imgFinal}) {
       <div className="flex relative h-80
            min-w-[540px] border-x-1
           flex-shrink-0">
-         <Image  src={imgFinal} 
+         <Image  src={baie} 
          layout="fill"
           objectFit="cover"/>
          
@@ -26,4 +26,4 @@ function FinalImage({imgFinal}) {
        
     
 }
-export default FinalImage;
+export default FinalBaie;

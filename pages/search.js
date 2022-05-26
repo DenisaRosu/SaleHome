@@ -58,8 +58,8 @@ const save = ()=>{
            
            <main className=' text-blue-800'>
               <section >
-              <p className="text-xm py-3">House to be done until {formattedStartDate}</p>
-             <h1 className="text-3xl py-3 font-semibold">Houses in {location} with {noOfRooms} rooms</h1>
+              <p className="text-xm py-3">Apartments to be done until {formattedStartDate}</p>
+             <h1 className="text-3xl py-3 font-semibold">Apartments in {location} with {noOfRooms} rooms</h1>
             
              {searchResults.filter(searchResult => searchResult.noRooms === noOfRooms && searchResult.zona === location ).map(({img, mp, zona, pret, noRooms, noBath}) => (   
            
@@ -99,15 +99,17 @@ const save = ()=>{
                     className="input"/>
 
                 </p>
-                <p className="flex-grow text-2xl py-3 flex items-center">MP
+                <p className="flex-grow text-2xl py-3   flex items-center">MP 
+                 <p className="flex-grow text-1xl py-3 px-2 flex items-center"> (+-10)
                 <ViewGridIcon  className="h-5 px-3"/>
                    <input 
                     value={noOfMP}
                     onChange={(e)=>setNoOfMPs(e.target.value)}
                     type="number" 
-                    min={1}
+                    min={30}
                     className="input"/>
 
+                </p>
                 </p>
             
 

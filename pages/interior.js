@@ -71,7 +71,7 @@ const router = useRouter();
          <CheckBox/>   
          </h1>
 
-         <h1 className="text-2xl flex-center py-3 font-semibold">Your faience 
+         <h1 className="text-2xl flex-center py-3 font-semibold">Your floor tiles
         {chooseResultsGresie.map(({imgG})=>(
                     <Gresie
                         key={imgG}
@@ -83,7 +83,7 @@ const router = useRouter();
          </h1>
          
                  
-       <h1 className="text-2xl flex-center py-3  font-semibold">Your bathroom floor tiles
+       <h1 className="text-2xl flex-center py-3  font-semibold">Your faiance
           
                   {chooseResultsFaianta.map(({imgF})=>(
                     <Faianta 
