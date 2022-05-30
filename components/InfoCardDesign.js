@@ -30,6 +30,7 @@ const save = ()=>{
           <div className="flex relative h-80 
            min-w-[430px] border-x-1
           flex-shrink-0
+          hover:scale-125
            ">
           <Image  
           src={img}  layout="fill"

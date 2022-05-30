@@ -4,7 +4,8 @@ function FinalBaie({baie}) {
     return(
 
         <div className="flex py-9 px-3 
-        hover:shadow-lg">
+        hover:shadow-lg
+        ">
   
      
          

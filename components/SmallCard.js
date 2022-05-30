@@ -4,7 +4,7 @@ function SmallCard({img, city, country}) {
     return(
 
         <div className="flex items-center 
-        m-3 mt-5 space-x-4 cursor-pointer
+         mt-4 space-x-4 cursor-pointer
         hover:bg-blue-200
         hover:scale-100
         transition transform duration-200 ease-out "
@@ -12,7 +12,7 @@ function SmallCard({img, city, country}) {
          
          {/*Left */}
               
-              <div className="relative h-40 w-60">
+              <div className="relative h-40 w-[400px]">
               <Image
               src={`${img}`} layout="fill" 
               

@@ -49,6 +49,22 @@
         "imgFinal":"/cameraP2.jpg",
         "baie":"/baieG1F1.jpg"
         
+    },
+    {  
+        "imgGresie": "/gres1.jpg",
+        "modelulFaianta":"Model faianta 1",
+        "modelulGresie":"Model gresie 1",
+        "imgFaianta": "/faianta1.jpg",
+        "modelulParchet":"Model parchet 2",
+        "imgParchet": "/parchet2.jpg",
+        "img": "/ap2.jpg",
+        "mp": "88.15",
+        "zona": "Dumbravita",
+        "pret": "90800 €Euro",
+        "noRooms":"3",
+        "noBath":"2",
+        "imgFinal":"/cameraP2.jpg",
+        "baie":"/baieG1F1.jpg"
     }
     
 
