@@ -1,6 +1,6 @@
 import Image from 'next/image' 
 
-function InfoCard({img, mp, zona, pret, noRooms, noBath}) {
+function InfoCard({img, mp, zona, pret, noRooms, noBath,complex}) {
 
     return (
         <div className="flex py-9 px-3 
@@ -24,9 +24,9 @@ function InfoCard({img, mp, zona, pret, noRooms, noBath}) {
              </div>
 
              <h4 className="text-xl font-bold">{pret}</h4>
-            
-               <h4 className="text-m">{noRooms} Rooms</h4>
-                <h4 className="text-m">{noBath} Bathrooms</h4>
+             <h4 className="text-m">{complex}</h4>
+             <h4 className="text-m">{noRooms}</h4>
+                <h4 className="text-m">{noBath} </h4>
           </div>
 
           

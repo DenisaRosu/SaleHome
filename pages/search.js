@@ -41,6 +41,9 @@ const save = ()=>{
    //ES6 destructuring 
   
    const{startDate, location, noOfRooms}  = router.query;
+   
+   console.log(startDate);
+
 
    //const filtered = router.query.filter(noOfRooms ===)
     
@@ -49,6 +52,7 @@ const save = ()=>{
 
 
    const formattedStartDate = format(new Date(startDate),"dd MMMM yy");  //install npm install --save react date-fns ( may crash again ?! ) 
+  console.log(formattedStartDate);
    return  (
 
        <div>
@@ -61,7 +65,10 @@ const save = ()=>{
               <p className="text-xm py-3">Apartments to be done until {formattedStartDate}</p>
              <h1 className="text-3xl py-3 font-semibold">Apartments in {location} with {noOfRooms} rooms</h1>
             
-             {searchResults.filter(searchResult => searchResult.noRooms === noOfRooms && searchResult.zona === location ).map(({img, mp, zona, pret, noRooms, noBath}) => (   
+             {searchResults.filter(searchResult => searchResult.noRooms === noOfRooms 
+             && searchResult.zona === location 
+             && searchResult.dateDone === formattedStartDate
+             ).map(({img, mp, zona, pret, noRooms, noBath, complex}) => (   
            
                       <InfoCard
                 
@@ -70,8 +77,9 @@ const save = ()=>{
                          
                          zona={zona}
                          pret ={pret}
-                         noRooms={noRooms}
-                         noBath={noBath}
+                         complex={complex}
+                         //noRooms={noRooms}
+                         //noBath={noBath}
                       />
 
                   ))}

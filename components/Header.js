@@ -6,7 +6,8 @@ import {SearchIcon,
     UsersIcon,
     UserCircleIcon,
    ViewGridIcon,
-} from '@heroicons/react/solid'
+} from '@heroicons/react/solid';
+import format from 'date-fns/format';
 
 import {useState} from "react";
 //import for the calendar 

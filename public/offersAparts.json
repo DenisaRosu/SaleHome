@@ -5,7 +5,9 @@
         "zona": "Timisoara",
         "pret": "146000 €Euro",
         "noRooms":"4",
-        "noBath":"2"
+        "noBath":"2",
+        "dateDone":"19 June 22",
+        "complex":"Complex Luna"
     },
     {  
         "img": "/ap2.jpg",
@@ -14,6 +16,7 @@
         "pret": "90800 €Euro",
         "noRooms":"3",
         "noBath":"2"
+
     },
     {
         "img": "/ap3.jpg",
@@ -29,7 +32,9 @@
         "zona": "Timisoara",
         "pret": "144000 €Euro",
         "noRooms":"4",
-        "noBath":"2"
+        "noBath":"2",
+        "dateDone":"19 June 22",
+        "complex":"Complex Star"
     },
     { 
         "img": "/ap5.jpg",
