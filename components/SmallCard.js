@@ -1,6 +1,6 @@
 import Image from 'next/image' 
 
-function SmallCard({img, city, country}) {
+function SmallCard({img, city, cartier}) {
     return(
 
         <div className="flex items-center 
@@ -31,7 +31,7 @@ function SmallCard({img, city, country}) {
         text-blue-800
         font-bold
         ">{city}</h2>
-             <h3>{country}</h3>
+             <h3>{cartier}</h3>
          </div>
         </div>    
       

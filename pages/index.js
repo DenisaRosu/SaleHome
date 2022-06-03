@@ -52,12 +52,12 @@ export default function Home({exploreData, cardsData,dataPlaces}) {
          <div className="grid grid-cols-1 sm:grid-cols-2
          lg:grid-cols-3
          xl:grid-cols-4">
-          {exploreData?.map(({img, city, country})=>(
+          {exploreData?.map(({img, city, cartier})=>(
           <SmallCard 
           key={img}
              img ={img}
              city = {city}
-             country={country}
+             cartier={cartier}
          />
          ))}
          </div>

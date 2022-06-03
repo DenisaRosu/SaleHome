@@ -30,7 +30,7 @@ function Header({placeholder}){
    endDate: endDate,
     key:"selection"
   };
-
+// a lot  of arrow functions in this code, o ES6 JavaScript coding 
   //function for reset button ( cancel button )
   const resetInput= () => {
      setSearchInput("");

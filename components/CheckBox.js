@@ -26,12 +26,10 @@ function CheckBox({}) {
 
    const{ img, mp, zona, pret, noRooms, noBath}  = router.query;
 
-  
 
 
-
-
-  
+  //model de componenta functionala 
+  //ES6 arrow functions
    const handleCheck = (event) => {
     var updatedList = [...checked];
     if (event.target.checked) {

@@ -2,21 +2,21 @@
     {
         "img": "/im1.png",
         "city": "Complex Luna",
-        "country": "Dumbravita"
+        "cartier": "Dumbravita"
     },
     {
         "img": "/im2.png",
         "city": "Complex Pluto",
-        "country": "Giroc"
+        "cartier": "Giroc"
     },
     {
         "img": "/im3.png",
         "city": "Complex Shine",
-        "country": "Timisoara"
+        "cartier": "Timisoara"
     },
     {
         "img": "/im4.png",
         "city": "Complex Star",
-        "country": "Timisoara"
+        "cartier": "Timisoara"
     }
   ]

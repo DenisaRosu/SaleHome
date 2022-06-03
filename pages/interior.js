@@ -83,7 +83,7 @@ const router = useRouter();
          </h1>
          
                  
-       <h1 className="text-2xl flex-center py-3  font-semibold">Your faiance
+       <h1 className="text-2xl flex-center py-3  font-semibold">Your bathroom floor tiles
           
                   {chooseResultsFaianta.map(({imgF})=>(
                     <Faianta 
