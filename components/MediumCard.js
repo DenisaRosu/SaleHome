@@ -15,7 +15,7 @@ function MediumCard({img, mp, zona, pret}) {
              {pret} 
 
           </h3>
-            <h2>{mp} MP</h2>
+            <h2>{mp} Square meters</h2>
              <h3>{zona}</h3>
         </div>    
       

@@ -45,14 +45,11 @@ const save = ()=>{
    console.log(startDate);
 
 
-   //const filtered = router.query.filter(noOfRooms ===)
-    
-  //const sameNoOfRooms = searchResults.filter(searchResult => searchResult.noRooms === noOfRooms);
-  //console.log(sameNoOfRooms);
+   //console.log(sameNoOfRooms);
 
 
    const formattedStartDate = format(new Date(startDate),"dd MMMM yy");  //install npm install --save react date-fns ( may crash again ?! ) 
-  console.log(formattedStartDate);
+   console.log(formattedStartDate);
    return  (
 
        <div>
@@ -67,14 +64,13 @@ const save = ()=>{
             
              {searchResults.filter(searchResult => searchResult.noRooms === noOfRooms 
              && searchResult.zona === location 
-             && searchResult.dateDone === formattedStartDate
+             && searchResult.dateDone === formattedStartDate   
              ).map(({img, mp, zona, pret, noRooms, noBath, complex}) => (   
            
                       <InfoCard
                 
                          key={img}
                          img ={img }
-                         
                          zona={zona}
                          pret ={pret}
                          complex={complex}
@@ -107,7 +103,7 @@ const save = ()=>{
                     className="input"/>
 
                 </p>
-                <p className="flex-grow text-2xl py-3   flex items-center">MP 
+                <p className="flex-grow text-2xl py-3   flex items-center">Square meters 
                  <p className="flex-grow text-1xl py-3 px-2 flex items-center"> (+-10)
                 <ViewGridIcon  className="h-5 px-3"/>
                    <input 

@@ -29,10 +29,6 @@ export default function Home({exploreData, cardsData,dataPlaces}) {
 
 
 
-
-
-
-
      {/*Header */}
     
       <Header />

@@ -21,13 +21,7 @@ function LargeCard({title, description1, description2,buttonText}) {
           <p className="text-3xl mb-6 w-80 text-blue-800 " >{description1}</p>
           <p className="text-3xl mb-6 w-80 text-blue-900" >{description2}</p>
          
-          <button className=" ml-20 right-3 mb-7 text-blue-800 bg-blue-200 
-           px-9 py-4 
-           border-4 border-blue-300
-           font-bold
-           hover:shadow-xl
-          
-           ">{buttonText}</button>
+         
         </div>
         </section>
         

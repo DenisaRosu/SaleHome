@@ -44,7 +44,7 @@ const save = ()=>{
              </div>
 
              <h4 className="text-xl font-bold">{pret}</h4>
-              <h4 className="text-m">{mp} MP</h4>
+              <h4 className="text-m">{mp} Square meters</h4>
                <h4 className="text-m">{noRooms} Rooms</h4>
                 <h4 className="text-m">{noBath} Bathrooms</h4>
         <button onClick={save} className="px-3 button">Customize this one!</button>  

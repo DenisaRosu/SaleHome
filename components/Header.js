@@ -22,7 +22,7 @@ function Header({placeholder}){
 
   const [searchInput, setSearchInput] = useState("");
   const [startDate, setStartDate]=useState(new Date());
-  const [endDate, setEndDate]=useState(startDate);
+  const [endDate, setEndDate]=useState(new Date());
   const [noOfRooms, setNoOfRooms]=useState(1);
   const router = useRouter();
    
@@ -31,19 +31,22 @@ function Header({placeholder}){
    endDate: endDate,
     key:"selection"
   };
-// a lot  of arrow functions in this code, o ES6 JavaScript coding 
+
+
+ 
   //function for reset button ( cancel button )
   const resetInput= () => {
      setSearchInput("");
    };
   
+//arrow functions in this code,  ES6 JavaScript coding 
   const save = ()=>{
-  // router.push('/search')
   router.push({
     pathname:'/search',
     query: {
        location:searchInput,
        startDate: startDate.toISOString(),
+       endDate: endDate.toISOString(),
        noOfRooms,
       
     }
@@ -54,10 +57,10 @@ function Header({placeholder}){
   //function for handling the changes in calendar 
   const handleSelect= (ranges )=> {
      setStartDate(ranges.selection.startDate);
-     setEndDate(ranges.selection.startDate);
+     setEndDate(ranges.selection.endDate);
   };
 
-
+console.log(selectionRange)
 
     return(
     <header className=" sticky top-0 z-10
@@ -166,6 +169,8 @@ function Header({placeholder}){
      onChange={handleSelect}
      showDateDisplay={false}
     /> 
+  
+  
     <div className="flex items-center border-blue-800 mb-2 ">
       <h2 className=" text-2xl flex-grow 
       py-3

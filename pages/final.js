@@ -42,7 +42,7 @@ console.log(checked)
            <main className=' text-blue-800'>
               <section >
                 <h1 className="text-3xl py-5 font-semibold px-10">
-                This is your final apartament in {zona} with {noRooms} bedrooms, {noBath} bathrooms and {mp} mp</h1>
+                This is your final apartament in {zona} with {noRooms} bedrooms, {noBath} bathrooms and {mp} square meters</h1>
              
                 <div className="px-4 py-2 space-y-3 flex-grow " >
                 </div>
