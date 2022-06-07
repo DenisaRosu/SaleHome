@@ -29,7 +29,8 @@ const router = useRouter();
 
 checked.sort();
 
-console.log(checked)
+//console.log(checked)
+console.log(checkedItems)
 
     return  (
 
@@ -66,9 +67,6 @@ console.log(checked)
                          
                         
                       />
-
-                
-               
 
                   ))}
          <h1 className="text-2xl py-3 font-semibold px-10">

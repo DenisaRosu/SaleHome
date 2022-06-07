@@ -74,8 +74,6 @@ const save = ()=>{
                          zona={zona}
                          pret ={pret}
                          complex={complex}
-                         //noRooms={noRooms}
-                         //noBath={noBath}
                       />
 
                   ))}

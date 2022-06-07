@@ -24,7 +24,7 @@ function Header({placeholder}){
   const [startDate, setStartDate]=useState(new Date());
   const [endDate, setEndDate]=useState(new Date());
   const [noOfRooms, setNoOfRooms]=useState(1);
-  const router = useRouter();
+ 
    
   const selectionRange={
     startDate: startDate,
@@ -39,6 +39,8 @@ function Header({placeholder}){
      setSearchInput("");
    };
   
+ const router = useRouter();
+
 //arrow functions in this code,  ES6 JavaScript coding 
   const save = ()=>{
   router.push({
@@ -47,7 +49,7 @@ function Header({placeholder}){
        location:searchInput,
        startDate: startDate.toISOString(),
        endDate: endDate.toISOString(),
-       noOfRooms,
+       noOfRooms
       
     }
   })
@@ -103,7 +105,7 @@ console.log(selectionRange)
             cursor-pointer
            
             "/>
-       
+  
         <input  
         value={searchInput}
         onChange={(e)=>setSearchInput(e.target.value)}
@@ -114,9 +116,7 @@ console.log(selectionRange)
             font-bold
              py-10
              placeholder-blue-800
-             px-1
-             
-            
+             px-1 
            sm:inline-flex
           "
         placeholder ={placeholder || "I want to live in.."}/>
@@ -156,7 +156,7 @@ console.log(selectionRange)
      <h1>Search for the city where you want to live!</h1>
     </div>
 
- {/*if there is a search input: */}
+ {/*if there is a search input: the calendar is shown*/}
   
    {searchInput && (
     <div className="flex flex-col col-span-3 mx-auto font-bold  text-blue-800">

@@ -16,14 +16,7 @@ function CheckBox({}) {
     }
   })
   }
-
-
-
-
  const router = useRouter();
-
-
-
    const{ img, mp, zona, pret, noRooms, noBath}  = router.query;
 
 

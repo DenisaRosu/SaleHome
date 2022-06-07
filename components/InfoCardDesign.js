@@ -7,7 +7,7 @@ function InfoCardDesign({img, mp, zona, pret, noRooms, noBath}) {
 
 
 const save = ()=>{
-  // router.push('/search')
+
   router.push({
     pathname:'/interior',
     query: {
