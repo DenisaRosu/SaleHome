@@ -1,11 +1,11 @@
 [
     {  
         "imgGresie": "/gres1.jpg",
-        "modelulFaianta":"Model faianta 1",
+        "modelulFaianta":"Model faiance 1",
         "modelulGresie":"Model gresie 1",
         "modelulParchet":"Model parchet 1",
         "imgFaianta": "/faianta1.jpg",
-        "imgParchet": "/parchet2.jpg",
+        "imgParchet": "/parchet1.jpg",
         "img": "/ap4.jpg",
         "mp": "83.90",
         "zona": "Timisoara",
@@ -18,10 +18,10 @@
     },
     {  
         "imgGresie": "/gres1.jpg",
-        "modelulFaianta":"Model faianta 2",
+        "modelulFaianta":"Model faiance 2",
         "modelulGresie":"Model gresie 2",
-        "imgFaianta": "/faianta1.jpg",
         "modelulParchet":"Model parchet 2",
+        "imgFaianta": "/faianta1.jpg",
         "imgParchet": "/parchet2.jpg",
         "img": "/ap1.jpg",
         "mp": "139.10",
@@ -35,7 +35,7 @@
     },
     {  
         "imgGresie": "/gres1.jpg",
-        "modelulFaianta":"Model faianta 1",
+        "modelulFaianta":"Model faiance 1",
         "modelulGresie":"Model gresie 1",
         "imgFaianta": "/faianta1.jpg",
         "modelulParchet":"Model parchet 2",
@@ -52,7 +52,7 @@
     },
     {  
         "imgGresie": "/gres1.jpg",
-        "modelulFaianta":"Model faianta 1",
+        "modelulFaianta":"Model faiance 1",
         "modelulGresie":"Model gresie 1",
         "imgFaianta": "/faianta1.jpg",
         "modelulParchet":"Model parchet 2",
@@ -64,6 +64,22 @@
         "noRooms":"3",
         "noBath":"2",
         "imgFinal":"/cameraP2.jpg",
+        "baie":"/baieG1F1.jpg"
+    },
+    {  
+        "imgGresie": "/gres1.jpg",
+        "modelulFaianta":"Model faiance 1",
+        "modelulGresie":"Model gresie 1",
+        "imgFaianta": "/faianta1.jpg",
+        "modelulParchet":"Model parchet 1",
+        "imgParchet": "/parchet2.jpg",
+        "img": "/ap2.jpg",
+        "mp": "88.15",
+        "zona": "Dumbravita",
+        "pret": "90800 €Euro",
+        "noRooms":"3",
+        "noBath":"2",
+        "imgFinal":"/cameraP1.jpg",
         "baie":"/baieG1F1.jpg"
     }
     

@@ -4,7 +4,7 @@ module.exports ={
   //reactStrictMode: true,
   modules: true,
   images:{
-    //domains: ["https://pixabay.com"],
+    domains: ["https://www.npoint.io"],
   },
 }
 

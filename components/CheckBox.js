@@ -34,7 +34,7 @@ function CheckBox({}) {
   };
 
    const [checked, setChecked] = useState([]);
-const checkList = ["Model faianta 1", "Model faianta 2","Model gresie 1","Model gresie 2", "Model parchet 1", "Model parchet 2"];
+const checkList = ["Model faiance 1", "Model faiance 2","Model gresie 1","Model gresie 2", "Model parchet 1", "Model parchet 2"];
 
 const checkedItems = checked.length
     ? checked.reduce((total, item) => {
@@ -62,7 +62,8 @@ const check2P = checked[5];
     <div className="form-check gap-5  ">
       
        <div className="checkList">
-    <div className="title py-4">Models:</div>
+    <div className="font-bold title py-1">Models</div>
+    <div className="title py-5">(choose one of each):</div>
     <div className="list-container mb-20">
       {checkList.map((item, index) => (
           <div className="mb-10" key={index}>

@@ -82,13 +82,13 @@ export default function Home({exploreData, cardsData,dataPlaces}) {
   );
 }
 export async function getServerSideProps(){   //before:getStaticProps
-   const exploreData = await fetch ("http://localhost:3000/explore.json").
+   const exploreData = await fetch ("https://api.npoint.io/5181a1adcf3efe273d59").
      then (
      (res) => res.json()
    );
   
 
-  const cardsData= await fetch ("http://localhost:3000/offersAparts.json").
+  const cardsData= await fetch ("https://api.npoint.io/25c0a7ebaacfe878029a").
      then((res)=>
      res.json()
      );
